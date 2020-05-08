@@ -17,19 +17,19 @@ if sys.version < '3.6':
 setup(
   name='SimpleMongoMackup',
   packages = find_packages(),
-  version='0.0.1',
+  version='0.0.4',
   description='A simple MongoDB backup',
   author='Checchia.NET - IT Solutions',
   author_email='dono@checchia.net',
   license='GPLv3',
-  install_requires = ["boto3 >= 1.13"],
+  install_requires = ["boto3"],
   url='https://github.com/checchia/SimpleMongoMackup', # The project's main homepage.
   keywords = ['MongoDB', 'backup', 'backup Rotate'], # arbitrary keywords
   classifiers = [
-             "Development Status :: 5 - Production",
-             "License :: OSI Approved :: GNU General Public License v3",
+             "Development Status :: 5 - Production/Stable",
+             "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
              "Operating System :: POSIX :: Linux",
-             "Natural Language :: Portuguese (Brazilian)"
+             "Natural Language :: Portuguese (Brazilian)",
              "Programming Language :: Python :: 3.6",
              "Topic :: Database",
              ],
